@@ -97,7 +97,7 @@ export default function AccountPage() {
                     </div>
 
                     <div className="space-y-4">
-                        <Label className="text-sm font-medium text-muted-foreground">{t("chooseAvatar") || "Choose Avatar"}</Label>
+                        <Label className="text-sm font-medium text-muted-foreground">{"Choose Avatar"}</Label>
                         <div className="flex flex-wrap gap-4">
                             {[1, 2, 3, 4, 5].map((i) => {
                                 const avatarPath = `/avatars/avatar-${i}.png`;
