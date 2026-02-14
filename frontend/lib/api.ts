@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // In production, use env variable
-const API_URL = "http://localhost:8000/api";
+const API_URL = "https://agrovision-backend-uqkj.onrender.com/api";
 
 export const api = axios.create({
     baseURL: API_URL,
